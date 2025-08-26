@@ -85,7 +85,7 @@ export default function FortuneCookie() {
   )}
 
 {status === "open" && (
-  <div className="bg-white/90 backdrop-blur-md rounded-xl shadow-lg p-8 w-full max-w-md text-center space-y-4 animate-fade-in border border-yellow-100">
+  <div className="bg-white/90 backdrop-blur-md rounded-xl shadow-lg p-8 w-full max-w-md text-center space-y-6 animate-fade-in border border-yellow-100">
     
     
     <div className="flex justify-center">
@@ -98,16 +98,19 @@ export default function FortuneCookie() {
     <h2 className="text-lg font-medium text-amber-700">Your Fortune</h2>
     
     
-    <p className="italic text-gray-700">"{fortune}"</p>
+    <div className="py-4">
+      <p className="italic text-gray-700 text-center text-lg leading-relaxed">"{fortune}"</p>
+    </div>
 
     
-<div>
-  <h3 className="text-sm text-gray-600 mb-2">Your Lucky Numbers</h3>
-  <div className="flex justify-center flex-wrap gap-2 mb-4">
+<div className="pt-2">
+  <h3 className="text-sm text-gray-600 mb-4">Your Lucky Numbers</h3>
+  <div className="flex justify-center flex-wrap gap-2 mb-6">
     {numbers.map((num, idx) => (
       <span
         key={idx}
-        className="bg-gradient-to-r from-amber-400 to-orange-500 text-white rounded-full w-10 h-10 flex items-center justify-center shadow-md text-sm"
+        className="bg-gradient-to-r from-amber-400 to-orange-500 text-white rounded-full w-10 h-10 flex items-center justify-center shadow-md text-sm number-appear"
+        style={{ animationDelay: `${idx * 0.2}s` }}
       >
         {num}
       </span>
@@ -115,7 +118,7 @@ export default function FortuneCookie() {
   </div>
 </div>
 
-<div className="flex justify-center">
+<div className="flex justify-center pt-2">
   <button
     onClick={resetCookie}
     className="fortune-button bg-gradient-to-r from-amber-400 to-orange-500 text-white px-8 py-2 rounded-full shadow-md hover:from-amber-500 hover:to-orange-600 transition"
