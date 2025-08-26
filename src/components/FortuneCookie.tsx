@@ -89,22 +89,22 @@ export default function FortuneCookie() {
     
     
     <div className="flex justify-center">
-      <div className="fortune-cookie-broksen">
+      <div className="fortune-cookie-broken">
         <div className="cookie-half"></div>
         <div className="cookie-half"></div>
       </div>
     </div>
 
-    <h2 className="text-lg font-medium text-amber-700">Your Fortune</h2>
+    <h2 className="text-lg font-medium fortune-title">Your Fortune</h2>
     
     
     <div className="py-4">
-      <p className="italic text-gray-700 text-center text-lg leading-relaxed">"{fortune}"</p>
+      <p className="italic text-center text-lg leading-relaxed text-gray-700">"{fortune}"</p>
     </div>
 
     
 <div className="pt-2">
-  <h3 className="text-sm text-gray-600 mb-4">Your Lucky Numbers</h3>
+  <h3 className="text-sm mb-4 lucky-numbers-title">Your Lucky Numbers</h3>
   <div className="flex justify-center flex-wrap gap-2 mb-6">
     {numbers.map((num, idx) => (
       <span

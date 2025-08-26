@@ -8,7 +8,7 @@
 }
 
 body {
-  background: linear-gradient(160deg, #f5f1e8, #e8dcc6);
+  background: #FFF6E0;
   color: var(--foreground);
   font-family: 'Noto Sans', sans-serif;
 }
@@ -374,6 +374,20 @@ body {
 
 .number-appear {
   animation: number-appear 0.6s ease-out both;
+}
+
+.fortune-title {
+  color: #D78500;
+  text-shadow: 
+    0 0 8px rgba(215, 133, 0, 0.6),
+    0 0 16px rgba(215, 133, 0, 0.4),
+    0 0 24px rgba(215, 133, 0, 0.3),
+    0 0 32px rgba(215, 133, 0, 0.2);
+  filter: drop-shadow(0 0 6px rgba(215, 133, 0, 0.5));
+}
+
+.lucky-numbers-title {
+  color: #BE5400;
 }
 
 .fortune-button {
