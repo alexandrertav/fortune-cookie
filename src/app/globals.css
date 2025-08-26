@@ -377,15 +377,13 @@ body {
 }
 
 .fortune-title {
-  color: #D78500;
+  color: #F5A623;
   text-shadow: 
-    0 0 4px rgba(215, 133, 0, 0.8),
-    0 0 8px rgba(215, 133, 0, 0.6),
-    0 0 12px rgba(215, 133, 0, 0.4),
-    0 0 16px rgba(215, 133, 0, 0.3),
-    0 0 20px rgba(215, 133, 0, 0.2),
-    0 0 24px rgba(215, 133, 0, 0.1);
-  filter: drop-shadow(0 0 4px rgba(215, 133, 0, 0.6));
+    0 0 8px rgba(245, 166, 35, 0.6),
+    0 0 16px rgba(245, 166, 35, 0.4),
+    0 0 24px rgba(245, 166, 35, 0.3),
+    0 0 32px rgba(245, 166, 35, 0.2);
+  filter: drop-shadow(0 0 6px rgba(245, 166, 35, 0.5));
 }
 
 .lucky-numbers-title {
