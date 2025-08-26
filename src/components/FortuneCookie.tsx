@@ -2,12 +2,12 @@
 import { useState } from "react";
 
 const fortunes = [
-  "Great things are coming your way.",
-  "A thrilling time is in your near future.",
-  "Now is the time to try something new.",
-  "Your hard work will soon pay off.",
-  "Happiness will find you when you least expect it.",
-  "Adventure awaits around the corner.",
+  'Great things are coming your way.',
+  'A thrilling time is in your near future.',
+  'Now is the time to try something new.',
+  'Your hard work will soon pay off.',
+  'Happiness will find you when you least expect it.',
+  'Adventure awaits around the corner.',
 ];
 
 export default function FortuneCookie() {
