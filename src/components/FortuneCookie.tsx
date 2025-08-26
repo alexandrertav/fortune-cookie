@@ -2,12 +2,12 @@
 import { useState } from "react";
 
 const fortunes = [
-  'Great things are coming your way.',
-  'A thrilling time is in your near future.',
-  'Now is the time to try something new.',
-  'Your hard work will soon pay off.',
-  'Happiness will find you when you least expect it.',
-  'Adventure awaits around the corner.',
+  "Great things are coming your way",
+  "A thrilling time is in your near future",
+  "Now is the time to try something new",
+  "Your hard work will soon pay off",
+  "Happiness will find you when you least expect it",
+  "Adventure awaits around the corner",
 ];
 
 export default function FortuneCookie() {
@@ -95,11 +95,11 @@ export default function FortuneCookie() {
       </div>
     </div>
 
-    <h2 className="text-lg font-medium fortune-title">Your Fortune</h2>
+    <h2 className="text-xl font-medium fortune-title">Your Fortune</h2>
     
     
     <div className="py-4">
-      <p className="italic text-center text-lg leading-relaxed text-gray-700">"{fortune}"</p>
+      <p className="italic text-center text-lg leading-relaxed text-gray-700">{fortune}</p>
     </div>
 
     
