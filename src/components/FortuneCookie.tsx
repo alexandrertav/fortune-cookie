@@ -89,7 +89,7 @@ export default function FortuneCookie() {
     
     
     <div className="flex justify-center">
-      <div className="fortune-cookie-broken">
+      <div className="fortune-cookie-broksen">
         <div className="cookie-half"></div>
         <div className="cookie-half"></div>
       </div>
